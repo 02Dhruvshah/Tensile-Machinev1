@@ -1,0 +1,331 @@
+Using pre-set license
+Built from '2022.3/staging' branch; Version is '2022.3.4f1 (35713cd46cd7) revision 3502396'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22621) 64bit Professional' Language: 'en' Physical Memory: 32547 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2022.3.4f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker1
+-projectPath
+C:/Github/Tensile Machinev1
+-logFile
+Logs/AssetImportWorker1.log
+-srvPort
+53393
+Successfully changed project path to: C:/Github/Tensile Machinev1
+C:/Github/Tensile Machinev1
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [7344] Host "[IP] 10.176.14.43 [Port] 0 [Flags] 2 [Guid] 3290658102 [EditorId] 3290658102 [Version] 1048832 [Id] WindowsEditor(7,Razorcrest) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [7344] Host "[IP] 10.176.14.43 [Port] 0 [Flags] 2 [Guid] 3290658102 [EditorId] 3290658102 [Version] 1048832 [Id] WindowsEditor(7,Razorcrest) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+Refreshing native plugins compatible for Editor in 13.96 ms, found 7 plugins.
+Preloading 1 native plugins for Editor in 0.73 ms.
+Initialize engine version: 2022.3.4f1 (35713cd46cd7)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.4f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Github/Tensile Machinev1/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 3060 Laptop GPU (ID=0x2520)
+    Vendor:   NVIDIA
+    VRAM:     6010 MB
+    Driver:   31.0.15.4584
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.4f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.4f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.4f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56164
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.4f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.4f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.005279 seconds.
+- Loaded All Assemblies, in  0.350 seconds
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Android Extension - Scanning For ADB Devices 1290 ms
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.659 seconds
+Domain Reload Profiling: 2008ms
+	BeginReloadAssembly (86ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (39ms)
+	RebuildNativeTypeToScriptingClass (11ms)
+	initialDomainReloadingComplete (54ms)
+	LoadAllAssembliesAndSetupDomain (159ms)
+		LoadAssemblies (85ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (154ms)
+			TypeCache.Refresh (152ms)
+				TypeCache.ScanAssembly (141ms)
+			ScanForSourceGeneratedMonoScriptInfo (1ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (1659ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1597ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (1435ms)
+			SetLoadedEditorAssemblies (5ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (3ms)
+			ProcessInitializeOnLoadAttributes (104ms)
+			ProcessInitializeOnLoadMethodAttributes (50ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Github\Tensile Machinev1\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Github\Tensile Machinev1\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  1.340 seconds
+Refreshing native plugins compatible for Editor in 6.28 ms, found 7 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Package Manager log level set to [2]
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x0003d] in .\Library\PackageCache\com.unity.xr.oculus@4.0.0\Runtime\OculusLoader.cs:282 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in .\Library\PackageCache\com.unity.xr.oculus@4.0.0\Runtime\OculusLoader.cs:267 
+  at (wrapper managed-to-native) System.Reflection.RuntimeMethodInfo.InternalInvoke(System.Reflection.RuntimeMethodInfo,object,object[],System.Exception&)
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x0006a] in <605bf8b31fcb444b85176da963870aa7>:0 
+   --- End of inner exception stack trace ---
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00083] in <605bf8b31fcb444b85176da963870aa7>:0 
+  at System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) [0x00000] in <605bf8b31fcb444b85176da963870aa7>:0 
+  at UnityEditor.EditorAssemblies.ProcessInitializeOnLoadMethodAttributes () [0x000a5] in <da771086bc2e4cfc9ad0a72e083a7f98>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
+
+Mono: successfully reloaded assembly
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+- Finished resetting the current domain, in  0.834 seconds
+Domain Reload Profiling: 2171ms
+	BeginReloadAssembly (188ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (12ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (35ms)
+	RebuildCommonClasses (55ms)
+	RebuildNativeTypeToScriptingClass (13ms)
+	initialDomainReloadingComplete (60ms)
+	LoadAllAssembliesAndSetupDomain (1021ms)
+		LoadAssemblies (636ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (472ms)
+			TypeCache.Refresh (423ms)
+				TypeCache.ScanAssembly (401ms)
+			ScanForSourceGeneratedMonoScriptInfo (35ms)
+			ResolveRequiredComponents (14ms)
+	FinalizeReload (834ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (610ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (27ms)
+			SetLoadedEditorAssemblies (6ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (92ms)
+			ProcessInitializeOnLoadAttributes (381ms)
+			ProcessInitializeOnLoadMethodAttributes (99ms)
+			AfterProcessingInitializeOnLoad (5ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (6ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
+Refreshing native plugins compatible for Editor in 7.76 ms, found 7 plugins.
+Preloading 1 native plugins for Editor in 0.07 ms.
+Unloading 6369 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 109 unused Assets / (2.0 MB). Loaded Objects now: 6804.
+Memory consumption went from 253.8 MB to 251.8 MB.
+Total: 5.277300 ms (FindLiveObjects: 0.640400 ms CreateObjectMapping: 0.370400 ms MarkObjects: 3.710900 ms  DeleteObjects: 0.554200 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 1106809.623612 seconds.
+  path: Assets/Lab-Package/Laboratory/Models/Props/Supplies/PlasticBottle/skin.mat
+  artifactKey: Guid(87e649ce9eb36f3499b83a33b3b4e7ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Lab-Package/Laboratory/Models/Props/Supplies/PlasticBottle/skin.mat using Guid(87e649ce9eb36f3499b83a33b3b4e7ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9c31ac87c44a76dd111873961e70a265') in 0.008706 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/Lab-Package/Laboratory/Models/Props/Supplies/PlasticBottle/PlasticBottle01.fbx
+  artifactKey: Guid(a58838b50eb17964985cca2864b3bccf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Lab-Package/Laboratory/Models/Props/Supplies/PlasticBottle/PlasticBottle01.fbx using Guid(a58838b50eb17964985cca2864b3bccf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3be21628d7ef54c81123d56a76d2944d') in 0.002339 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 6
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Lab-Package/Laboratory/Models/Props/Supplies/PlasticBottle/pngwing.com 2.mat
+  artifactKey: Guid(ecc43e5fd800ae54ab38e0c88c0c9979) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Lab-Package/Laboratory/Models/Props/Supplies/PlasticBottle/pngwing.com 2.mat using Guid(ecc43e5fd800ae54ab38e0c88c0c9979) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e76c3a9ec3784298881535caba20ea71') in 0.001365 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Lab-Package/Laboratory/Models/Props/Supplies/PlasticBottle/hydrogellpng.png
+  artifactKey: Guid(0ad1e02543512e84ea1f62d8c9285476) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Lab-Package/Laboratory/Models/Props/Supplies/PlasticBottle/hydrogellpng.png using Guid(0ad1e02543512e84ea1f62d8c9285476) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '61aa98d141d1dbe3824897af1a1f44b1') in 0.003159 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Lab-Package/Laboratory/Models/Props/Supplies/PlasticBottle/PlasticBottle03.fbx
+  artifactKey: Guid(e214ac635ae55ea45a65746c27f93c63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Lab-Package/Laboratory/Models/Props/Supplies/PlasticBottle/PlasticBottle03.fbx using Guid(e214ac635ae55ea45a65746c27f93c63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a20691260d78b242e58b13286750b4c8') in 0.002836 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 6
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Lab-Package/Laboratory/Models/Props/Supplies/PlasticBottle/pngwing.com 1.mat
+  artifactKey: Guid(559d85d080d67234da71059f832168f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Lab-Package/Laboratory/Models/Props/Supplies/PlasticBottle/pngwing.com 1.mat using Guid(559d85d080d67234da71059f832168f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9f35967c4d1ecf6f06f95d4d55344b4c') in 0.001423 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Lab-Package/Laboratory/Models/Props/Supplies/PlasticBottle/Material #4 1.mat
+  artifactKey: Guid(9198158818fc2a341bb0728ba23bb38d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Lab-Package/Laboratory/Models/Props/Supplies/PlasticBottle/Material #4 1.mat using Guid(9198158818fc2a341bb0728ba23bb38d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '107aede4465664e020532cfbf379405c') in 0.001798 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Lab-Package/Laboratory/Models/Props/Supplies/PlasticBottle/Material #4.mat
+  artifactKey: Guid(71d0ebd8cd88ba247b96be97ae4325e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Lab-Package/Laboratory/Models/Props/Supplies/PlasticBottle/Material #4.mat using Guid(71d0ebd8cd88ba247b96be97ae4325e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eaede59669fe70c7e6b92c2c44aefe1e') in 0.001190 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Lab-Package/Laboratory/Models/Props/Supplies/PlasticBottle/BottleSticker.fbx
+  artifactKey: Guid(99381ce813a0a5c4e8616db035b2f65d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Lab-Package/Laboratory/Models/Props/Supplies/PlasticBottle/BottleSticker.fbx using Guid(99381ce813a0a5c4e8616db035b2f65d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '37782af83608960243501dbda21f0d0f') in 0.005082 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 21
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Lab-Package/Laboratory/Models/Props/Supplies/PlasticBottle/material 1.mat
+  artifactKey: Guid(c158bc1d14bef444698af48fb4871c0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Lab-Package/Laboratory/Models/Props/Supplies/PlasticBottle/material 1.mat using Guid(c158bc1d14bef444698af48fb4871c0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cfe1a5ef077abc80dc16c8260a334bed') in 0.001674 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 255.159176 seconds.
+  path: Assets/Lab-Package/Laboratory/Prefabs/Props/Hardware/UltraSonicCleaner01.prefab
+  artifactKey: Guid(57aa1a34512231848aa407fe559c56be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Lab-Package/Laboratory/Prefabs/Props/Hardware/UltraSonicCleaner01.prefab using Guid(57aa1a34512231848aa407fe559c56be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '59f471e116e8d3bf8df7248c699240dc') in 0.004062 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 12
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Lab-Package/Laboratory/Models/Props/Hardware/UltraSonicCleaner01/UltraSonicCleaner01_Alpha.tif
+  artifactKey: Guid(f0e9540e5ebe9c8459b084e58d248d1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Lab-Package/Laboratory/Models/Props/Hardware/UltraSonicCleaner01/UltraSonicCleaner01_Alpha.tif using Guid(f0e9540e5ebe9c8459b084e58d248d1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e2084368179a1274b49c804bb0ab70d0') in 0.002483 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Lab-Package/Laboratory/Models/Props/Hardware/UltraSonicCleaner01/Materials/UltrasonicCleaner01.mat
+  artifactKey: Guid(0ccf0bfbb0c8c0f4cbacdcf1ee1e63ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Lab-Package/Laboratory/Models/Props/Hardware/UltraSonicCleaner01/Materials/UltrasonicCleaner01.mat using Guid(0ccf0bfbb0c8c0f4cbacdcf1ee1e63ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd77feab161da8cdc0018209e504359a5') in 0.001537 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.642067 seconds.
+  path: Assets/Lab-Package/Laboratory/Models/Props/Hardware/UltraSonicCleaner01/Materials/UltrasonicCleaner01_MaskMap.png
+  artifactKey: Guid(14b6f5209b645a142afc28a0929bd2e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Lab-Package/Laboratory/Models/Props/Hardware/UltraSonicCleaner01/Materials/UltrasonicCleaner01_MaskMap.png using Guid(14b6f5209b645a142afc28a0929bd2e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0ae1a634d8c0249ecf19a4cb9673dee7') in 0.003060 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Lab-Package/Laboratory/Models/Props/Hardware/UltraSonicCleaner01/UltrasonicCleaner01_n.PNG
+  artifactKey: Guid(d4f15e4c6791157409ac2e87ea11642d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Lab-Package/Laboratory/Models/Props/Hardware/UltraSonicCleaner01/UltrasonicCleaner01_n.PNG using Guid(d4f15e4c6791157409ac2e87ea11642d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5e54d69530710a584e2f6fa03d9f1098') in 0.002030 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+TcpMessagingSession - receive error: operation aborted. errorcode: 995, details: The I/O operation has been aborted because of either a thread exit or an application request.
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
