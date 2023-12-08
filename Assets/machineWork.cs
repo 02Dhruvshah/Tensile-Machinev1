@@ -18,6 +18,10 @@ public class machineWork : MonoBehaviour
     public bool notanim = false;
 
     public material_Placing placingScript;
+
+    public bool isTensile_machine_commontested = false;
+    public bool isTensile_machine_breaktested = false;
+    public bool isTensile_machine_normaltested = false;
     private void Start()
     {
         machineup = GetComponent<Animator>();
@@ -58,6 +62,7 @@ public class machineWork : MonoBehaviour
             notanim = false;
             breaking = false;
             common = false;
+            isTensile_machine_commontested = true;
         }
         else if(breaking)
         {
@@ -71,6 +76,7 @@ public class machineWork : MonoBehaviour
             notanim = false;
             breaking = false;
             common = false;
+            isTensile_machine_breaktested = true;
         }
         //else if(not)
         else if (notanim) 
@@ -84,6 +90,7 @@ public class machineWork : MonoBehaviour
             notanim = false;
             breaking = false;
             common = false;
+            isTensile_machine_normaltested=true;
         }
         else
         {

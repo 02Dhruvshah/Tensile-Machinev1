@@ -14,6 +14,9 @@ public class UI_control : MonoBehaviour
     public GameObject infoUI;
     public GameObject mainUi;
     //private bool doOnce =false;
+
+    public machineWork machineanimationTrigger;
+    public compressAnim compressionmachinescript;
     private void Start()
     {
         ShowStep(0); // Start with the first step (index 0)
@@ -102,6 +105,14 @@ public class UI_control : MonoBehaviour
     }
     public void quit()
     {
-        Application.Quit();
+        if (compressionmachinescript.iscompressiontest && machineanimationTrigger.isTensile_machine_commontested && machineanimationTrigger.isTensile_machine_breaktested && machineanimationTrigger.isTensile_machine_normaltested)
+        {
+            Application.Quit();
+        }
+        else
+        {
+            Debug.Log("you are not tested the tensile machine");
+        }
+
     }
 }

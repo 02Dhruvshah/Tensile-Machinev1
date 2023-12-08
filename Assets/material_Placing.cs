@@ -2,6 +2,8 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
+using Unity.Burst.Intrinsics;
+
 public class material_Placing : MonoBehaviour
 {
     public GameObject tensilePlacedUI;
@@ -15,7 +17,10 @@ public class material_Placing : MonoBehaviour
     public TextMeshProUGUI result;
     public TextMeshProUGUI resultbreak;
 
-
+    //Disabling gameobjects from scene
+    public GameObject common;
+    public GameObject commonbreak;
+    public GameObject notmaterial;
 
     public machineWork machineanimationTrigger;
     private void OnTriggerEnter(Collider other)
@@ -29,7 +34,12 @@ public class material_Placing : MonoBehaviour
             tensilenot.gameObject.SetActive(false);
             tensileNotUI.gameObject.SetActive(false);
             tensilePlacedUI.SetActive(true);
-            
+
+
+            //destroy the gameobject from scene
+            common.gameObject.SetActive(false);
+            Destroy(common);
+
             result.text = "Material Strength 10 KN";
         }
         else if (other.gameObject.layer == LayerMask.NameToLayer("break"))
@@ -40,7 +50,10 @@ public class material_Placing : MonoBehaviour
             tensilenot.gameObject.SetActive(false);
             tensileNotUI.gameObject.SetActive(false);
             tensilePlacedUI.SetActive(true);
-           
+
+            commonbreak.gameObject.SetActive(false);
+            Destroy(commonbreak);
+
             result.text = "Material Strength 20 KN";
         }
         else if (other.gameObject.layer == LayerMask.NameToLayer("not"))
@@ -52,6 +65,9 @@ public class material_Placing : MonoBehaviour
             tensileNotUI.gameObject.SetActive(false);
             tensilePlacedUI.SetActive(true);
 
+
+            notmaterial.gameObject.SetActive(false);
+            Destroy(notmaterial);
             resultbreak.text = "Material Strength 0 KN";
         }
 

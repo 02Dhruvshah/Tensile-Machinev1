@@ -8,6 +8,7 @@ public class compressionWork : MonoBehaviour
     public GameObject compressionPlacedUI;
     public GameObject CompressionNotUI;
     public GameObject compressionMaterial;
+
     private void OnTriggerEnter(Collider other)
     {
         if (other.gameObject.layer == LayerMask.NameToLayer("material2"))
@@ -15,6 +16,7 @@ public class compressionWork : MonoBehaviour
             compressionMaterial.gameObject.SetActive(true);
             CompressionNotUI.gameObject.SetActive(false);
             compressionPlacedUI.SetActive(true);
+
         }
 
     }
